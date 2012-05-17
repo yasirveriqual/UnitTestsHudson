@@ -32,4 +32,11 @@
         STFail(@"xyz should not return null");
     }
 }
+
+- (void)testPass
+{
+    if (0) {
+        STFail(@"xyz should not return null");
+    }
+}
 @end
