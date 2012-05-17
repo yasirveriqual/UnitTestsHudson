@@ -7,6 +7,7 @@
 //
 
 #import "UnitTestsHudsonTests.h"
+#import "ViewController.h"
 
 @implementation UnitTestsHudsonTests
 
@@ -26,7 +27,9 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in UnitTestsHudsonTests");
+    ViewController *v = [[ViewController alloc] init];
+    if ([v xyz] == nil) {
+        STFail(@"xyz should not return null");
+    }
 }
-
 @end
