@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B49E9881565258500814528 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B49E9871565258500814528 /* UIKit.framework */; };
+		2B49E98A1565258500814528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B49E9891565258500814528 /* Foundation.framework */; };
+		2B49E98C1565258500814528 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B49E98B1565258500814528 /* CoreGraphics.framework */; };
+		2B49E9921565258500814528 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B49E9901565258500814528 /* InfoPlist.strings */; };
+		2B49E9941565258500814528 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B49E9931565258500814528 /* main.m */; };
+		2B49E9981565258600814528 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B49E9971565258600814528 /* AppDelegate.m */; };
+		2B49E99B1565258600814528 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B49E99A1565258600814528 /* ViewController.m */; };
+		2B49E99E1565258600814528 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B49E99C1565258600814528 /* ViewController_iPhone.xib */; };
+		2B49E9A11565258600814528 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B49E99F1565258600814528 /* ViewController_iPad.xib */; };
+		2B49E9A91565258600814528 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B49E9A81565258600814528 /* SenTestingKit.framework */; };
+		2B49E9AA1565258600814528 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B49E9871565258500814528 /* UIKit.framework */; };
+		2B49E9AB1565258600814528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B49E9891565258500814528 /* Foundation.framework */; };
+		2B49E9B31565258600814528 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B49E9B11565258600814528 /* InfoPlist.strings */; };
+		2B49E9B61565258600814528 /* UnitTestsHudsonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B49E9B51565258600814528 /* UnitTestsHudsonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B49E9AC1565258600814528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B49E97A1565258500814528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B49E9821565258500814528;
+			remoteInfo = UnitTestsHudson;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B49E9831565258500814528 /* UnitTestsHudson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTestsHudson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B49E9871565258500814528 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2B49E9891565258500814528 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B49E98B1565258500814528 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2B49E98F1565258500814528 /* UnitTestsHudson-Info.plist */ = {isa = PBXFileReference; path = "UnitTestsHudson-Info.plist"; sourceTree = "<group>"; };
+		2B49E9911565258500814528 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B49E9931565258500814528 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B49E9951565258500814528 /* UnitTestsHudson-Prefix.pch */ = {isa = PBXFileReference; path = "UnitTestsHudson-Prefix.pch"; sourceTree = "<group>"; };
+		2B49E9961565258500814528 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B49E9971565258600814528 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B49E9991565258600814528 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		2B49E99A1565258600814528 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B49E99D1565258600814528 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		2B49E9A01565258600814528 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		2B49E9A71565258600814528 /* UnitTestsHudsonTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestsHudsonTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B49E9A81565258600814528 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2B49E9B01565258600814528 /* UnitTestsHudsonTests-Info.plist */ = {isa = PBXFileReference; path = "UnitTestsHudsonTests-Info.plist"; sourceTree = "<group>"; };
+		2B49E9B21565258600814528 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B49E9B41565258600814528 /* UnitTestsHudsonTests.h */ = {isa = PBXFileReference; path = UnitTestsHudsonTests.h; sourceTree = "<group>"; };
+		2B49E9B51565258600814528 /* UnitTestsHudsonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitTestsHudsonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B49E9801565258500814528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B49E9881565258500814528 /* UIKit.framework in Frameworks */,
+				2B49E98A1565258500814528 /* Foundation.framework in Frameworks */,
+				2B49E98C1565258500814528 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B49E9A31565258600814528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B49E9A91565258600814528 /* SenTestingKit.framework in Frameworks */,
+				2B49E9AA1565258600814528 /* UIKit.framework in Frameworks */,
+				2B49E9AB1565258600814528 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B49E9781565258500814528 = {
+			isa = PBXGroup;
+			children = (
+				2B49E98D1565258500814528 /* UnitTestsHudson */,
+				2B49E9AE1565258600814528 /* UnitTestsHudsonTests */,
+				2B49E9861565258500814528 /* Frameworks */,
+				2B49E9841565258500814528 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B49E9841565258500814528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B49E9831565258500814528 /* UnitTestsHudson.app */,
+				2B49E9A71565258600814528 /* UnitTestsHudsonTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B49E9861565258500814528 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B49E9871565258500814528 /* UIKit.framework */,
+				2B49E9891565258500814528 /* Foundation.framework */,
+				2B49E98B1565258500814528 /* CoreGraphics.framework */,
+				2B49E9A81565258600814528 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B49E98D1565258500814528 /* UnitTestsHudson */ = {
+			isa = PBXGroup;
+			children = (
+				2B49E9961565258500814528 /* AppDelegate.h */,
+				2B49E9971565258600814528 /* AppDelegate.m */,
+				2B49E9991565258600814528 /* ViewController.h */,
+				2B49E99A1565258600814528 /* ViewController.m */,
+				2B49E99C1565258600814528 /* ViewController_iPhone.xib */,
+				2B49E99F1565258600814528 /* ViewController_iPad.xib */,
+				2B49E98E1565258500814528 /* Supporting Files */,
+			);
+			path = UnitTestsHudson;
+			sourceTree = "<group>";
+		};
+		2B49E98E1565258500814528 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B49E98F1565258500814528 /* UnitTestsHudson-Info.plist */,
+				2B49E9901565258500814528 /* InfoPlist.strings */,
+				2B49E9931565258500814528 /* main.m */,
+				2B49E9951565258500814528 /* UnitTestsHudson-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B49E9AE1565258600814528 /* UnitTestsHudsonTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B49E9B41565258600814528 /* UnitTestsHudsonTests.h */,
+				2B49E9B51565258600814528 /* UnitTestsHudsonTests.m */,
+				2B49E9AF1565258600814528 /* Supporting Files */,
+			);
+			path = UnitTestsHudsonTests;
+			sourceTree = "<group>";
+		};
+		2B49E9AF1565258600814528 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B49E9B01565258600814528 /* UnitTestsHudsonTests-Info.plist */,
+				2B49E9B11565258600814528 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B49E9821565258500814528 /* UnitTestsHudson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B49E9B91565258600814528 /* Build configuration list for PBXNativeTarget "UnitTestsHudson" */;
+			buildPhases = (
+				2B49E97F1565258500814528 /* Sources */,
+				2B49E9801565258500814528 /* Frameworks */,
+				2B49E9811565258500814528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnitTestsHudson;
+			productName = UnitTestsHudson;
+			productReference = 2B49E9831565258500814528 /* UnitTestsHudson.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B49E9A61565258600814528 /* UnitTestsHudsonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B49E9BC1565258600814528 /* Build configuration list for PBXNativeTarget "UnitTestsHudsonTests" */;
+			buildPhases = (
+				2B49E9A21565258600814528 /* Sources */,
+				2B49E9A31565258600814528 /* Frameworks */,
+				2B49E9A41565258600814528 /* Resources */,
+				2B49E9A51565258600814528 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B49E9AD1565258600814528 /* PBXTargetDependency */,
+			);
+			name = UnitTestsHudsonTests;
+			productName = UnitTestsHudsonTests;
+			productReference = 2B49E9A71565258600814528 /* UnitTestsHudsonTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B49E97A1565258500814528 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = VeriQual;
+			};
+			buildConfigurationList = 2B49E97D1565258500814528 /* Build configuration list for PBXProject "UnitTestsHudson" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B49E9781565258500814528;
+			productRefGroup = 2B49E9841565258500814528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B49E9821565258500814528 /* UnitTestsHudson */,
+				2B49E9A61565258600814528 /* UnitTestsHudsonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B49E9811565258500814528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B49E9921565258500814528 /* InfoPlist.strings in Resources */,
+				2B49E99E1565258600814528 /* ViewController_iPhone.xib in Resources */,
+				2B49E9A11565258600814528 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B49E9A41565258600814528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B49E9B31565258600814528 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B49E9A51565258600814528 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B49E97F1565258500814528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B49E9941565258500814528 /* main.m in Sources */,
+				2B49E9981565258600814528 /* AppDelegate.m in Sources */,
+				2B49E99B1565258600814528 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B49E9A21565258600814528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B49E9B61565258600814528 /* UnitTestsHudsonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B49E9AD1565258600814528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B49E9821565258500814528 /* UnitTestsHudson */;
+			targetProxy = 2B49E9AC1565258600814528 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B49E9901565258500814528 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B49E9911565258500814528 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2B49E99C1565258600814528 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B49E99D1565258600814528 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		2B49E99F1565258600814528 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B49E9A01565258600814528 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		2B49E9B11565258600814528 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B49E9B21565258600814528 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B49E9B71565258600814528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B49E9B81565258600814528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B49E9BA1565258600814528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnitTestsHudson/UnitTestsHudson-Prefix.pch";
+				INFOPLIST_FILE = "UnitTestsHudson/UnitTestsHudson-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B49E9BB1565258600814528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnitTestsHudson/UnitTestsHudson-Prefix.pch";
+				INFOPLIST_FILE = "UnitTestsHudson/UnitTestsHudson-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2B49E9BD1565258600814528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UnitTestsHudson.app/UnitTestsHudson";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnitTestsHudson/UnitTestsHudson-Prefix.pch";
+				INFOPLIST_FILE = "UnitTestsHudsonTests/UnitTestsHudsonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2B49E9BE1565258600814528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UnitTestsHudson.app/UnitTestsHudson";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnitTestsHudson/UnitTestsHudson-Prefix.pch";
+				INFOPLIST_FILE = "UnitTestsHudsonTests/UnitTestsHudsonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B49E97D1565258500814528 /* Build configuration list for PBXProject "UnitTestsHudson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B49E9B71565258600814528 /* Debug */,
+				2B49E9B81565258600814528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B49E9B91565258600814528 /* Build configuration list for PBXNativeTarget "UnitTestsHudson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B49E9BA1565258600814528 /* Debug */,
+				2B49E9BB1565258600814528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B49E9BC1565258600814528 /* Build configuration list for PBXNativeTarget "UnitTestsHudsonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B49E9BD1565258600814528 /* Debug */,
+				2B49E9BE1565258600814528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B49E97A1565258500814528 /* Project object */;
+}
